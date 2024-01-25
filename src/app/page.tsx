@@ -78,6 +78,7 @@ export default function Home() {
               <span className="sr-only">Light bulb</span>
             </span>
             <span>Currenly&nbsp;in&nbsp;progress&nbsp;by&nbsp;<a target="_blank" href="https://john-porfolio.vercel.app" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">John&nbsp;Paul</a></span>
+            <span>&nbsp;Idea&nbsp;by&nbsp;<a target="_blank" href="https://github.com/SimonPaul-0" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Simon&nbsp;Paul</a></span>
           </p>
         </div>
         <div className="flex items-center">
