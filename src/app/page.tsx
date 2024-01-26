@@ -68,21 +68,43 @@ export default function Home() {
 
   return (
     <><div className="relative overflow-hidden">
-      <div id="banner" tabIndex={-1} className="top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
-        <div className="flex items-center mx-auto">
-          <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
-            <span className="inline-flex p-1 me-3 bg-gray-200 rounded-full dark:bg-gray-600 w-6 h-6 items-center justify-center flex-shrink-0">
-              <svg className="w-3 h-3 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 19">
-                <path d="M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z" />
-              </svg>
-              <span className="sr-only">Light bulb</span>
-            </span>
-            <span>Currenly&nbsp;in&nbsp;progress&nbsp;by&nbsp;<a target="_blank" href="https://john-porfolio.vercel.app" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">John&nbsp;Paul</a></span>
-            <span>&nbsp;Idea&nbsp;by&nbsp;<a target="_blank" href="https://github.com/SimonPaul-0" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Simon&nbsp;Paul</a></span>
-          </p>
-        </div>
-        <div className="flex items-center">
-
+      <div className="bg-gradient-to-r from-purple-600 to-blue-400">
+        <div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
+          {/* Grid */}
+          <div className="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2">
+            <div className="text-center md:text-start md:order-2 md:flex md:justify-end md:items-center">
+              
+              <a
+                className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border-2 border-white text-white hover:border-white/70 hover:text-white/70 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                href="https://github.com/RJohnPaul/WeatherWave"
+                target="_blank"
+              >
+                Source Code
+              </a>
+            </div>
+            {/* End Col */}
+            <div className="flex items-center">
+              <a
+                className="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-lg font-medium text-white hover:bg-white/[.1] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all text-sm"
+                href="https://john-porfolio.vercel.app/"
+                target="_blank"
+              >
+               Code By
+                John Paul
+              </a>
+              <span className="inline-block border-e border-white/[.3] w-px h-5 mx-2" />
+              <a
+                className="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-lg font-medium text-white hover:bg-white/[.1] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all text-sm"
+                href="https://github.com/SimonPaul-0"
+                target="_blank"
+              >
+                Idea By
+                Simon Paul
+              </a>
+            </div>
+            {/* End Col */}
+          </div>
+          {/* End Grid */}
         </div>
       </div>
       <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-24">
