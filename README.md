@@ -1,5 +1,10 @@
 # WeatherWave - Your Ultimate Weather Companion 🌦️🌊
 
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/Buildme/blob/124554751f4e4e3800bf412d0e3f3140d2539e7b/Frame%2029.png" alt="Project Banner">
+  </br>
+</div>
    Welcome to WeatherWave, a powerful and user-friendly web app that provides accurate and detailed weather information at your fingertips. With advanced API integrations, sleek design powered by Tailwind CSS, and the efficiency of Next.js, WeatherWave is the go-to solution for staying informed about the weather conditions in any location.
 
 ## Features
